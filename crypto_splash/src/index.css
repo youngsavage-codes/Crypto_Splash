@@ -1,13 +1,106 @@
-body {
+*{
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+
+body {
+  background: #26272b;
+  color: #f4f4f4;
+  font-family: monospace;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* NAVBAR */
+
+h1{
+  text-align: center;
+  margin: 1rem;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon{
+  font-size: 2rem;
+  color: #6900ff;
+}
+
+.purple{
+  color: #6900ff;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+/* COINS */
+.container
+{
+  max-width: 1140px;
+  margin: auto;
+}
+
+.heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  box-shadow: 0px 0px 12px #18191b;
+  padding: 15px;
+  font-size: 14px;
+  margin: .7rem 1rem;
+  font-weight: 700;
+}
+
+.coin-name
+{
+  margin-left: -4rem;
+}
+
+@media screen and (max-width: 720px) {
+  .hide-mobile
+  {
+    display: none;
+  }
+}
+
+/* COINITEM */
+.coin-row
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  box-shadow: 0px 0px 12px #18191b;
+  margin: .7rem 1rem;
+  padding: 20px;
+}
+
+.coin-row:hover
+{
+  transform: scale(1.04);
+  transition: .3s ease-in-out;
+  cursor: pointer;
+}
+
+img
+{
+  height: 40px;
+  width: auto;
+  margin-right: 8px;
+}
+
+.img-symbol
+{
+  display: flex;
+  align-items: center;
 }
