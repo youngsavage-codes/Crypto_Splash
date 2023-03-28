@@ -1,6 +1,7 @@
 import axios from 'axios'
 import { useParams } from 'react-router-dom'
 import React, {useState, useEffect} from 'react'
+import './coin.css'
 
 const Coin = () => {
   const params = useParams()
@@ -23,10 +24,11 @@ const Coin = () => {
 
   return (
     <div className='coin-container'>
-      
+      <div>
         <div className='content'>
-         <h1>{coin.name}</h1>
+          <h1>{coin.name}</h1>
         </div>
+      </div>
 
         <div className='content'>
 
@@ -79,7 +81,7 @@ const Coin = () => {
               </tbody>
 
             </table>
-                      </div>   
+          </div>   
  
           <div className='content'>
             <div className='stats'>
@@ -111,7 +113,7 @@ const Coin = () => {
 
           <div className='content'>
             <div className='about'>
-              <h1>About</h1>
+              <h3>About</h3>
               <p>{coin.description ? coin.description.en : ''}</p>
 
             </div>
