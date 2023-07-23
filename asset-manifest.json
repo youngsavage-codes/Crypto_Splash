@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/crypto_splash/static/css/main.bbfbffad.css",
-    "main.js": "/crypto_splash/static/js/main.a2a748e8.js",
-    "index.html": "/crypto_splash/index.html",
-    "main.bbfbffad.css.map": "/crypto_splash/static/css/main.bbfbffad.css.map",
-    "main.a2a748e8.js.map": "/crypto_splash/static/js/main.a2a748e8.js.map"
+    "main.css": "/Crypto_Splash/static/css/main.bbfbffad.css",
+    "main.js": "/Crypto_Splash/static/js/main.a2a748e8.js",
+    "index.html": "/Crypto_Splash/index.html",
+    "main.bbfbffad.css.map": "/Crypto_Splash/static/css/main.bbfbffad.css.map",
+    "main.a2a748e8.js.map": "/Crypto_Splash/static/js/main.a2a748e8.js.map"
   },
   "entrypoints": [
     "static/css/main.bbfbffad.css",
